@@ -54,7 +54,6 @@ namespace GrowthSpeedModifier {
 
         var delta = percent - __instance.GrowthProgress;
         percent = __instance.GrowthProgress + delta * shroomModifier!.Value;
-        Melon<Mod>.Instance.LoggerInstance.Msg($"changing shroom growth to {percent}");
       }
     }
 
